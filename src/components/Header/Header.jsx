@@ -4,7 +4,7 @@ export const Header = () => {
 	return (
 		<header className='header'>
 			<div className='header__logo'>
-				<img src='./public/header/headerLogo.svg' alt='headerLogo' />
+				<img src='./header/headerLogo.svg' alt='headerLogo' />
 			</div>
 			<nav className='header__nav'>
 				<a className='header__nav-a' href=''>
@@ -26,17 +26,17 @@ export const Header = () => {
 			<nav className='header__nav-icons'>
 				<img
 					className='header__nav-icons-svg'
-					src='./public/header/github.svg'
+					src='./header/github.svg'
 					alt='github'
 				/>
 				<img
 					className='header__nav-icons-svg'
-					src='./public/header/twitter.svg'
+					src='./header/twitter.svg'
 					alt='twitter'
 				/>
 				<img
 					className='header__nav-icons-svg'
-					src='./public/header/linkedin.svg'
+					src='./header/linkedin.svg'
 					alt='linkedin'
 				/>
 			</nav>

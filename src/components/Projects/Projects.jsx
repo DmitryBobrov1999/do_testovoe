@@ -22,14 +22,14 @@ export const Projects = () => {
 							</p>
 							<div className='projects__card-block'>
 								<div className='projects__card-linkBlock'>
-									<img src='./public/projects/linkChain.svg' alt='linkChain' />
+									<img src='./projects/linkChain.svg' alt='linkChain' />
 									<a className='projects__card-link' href=''>
 										Live Preview
 									</a>
 								</div>
 								<div className='projects__card-linkBlock'>
 									<img
-										src='./public/projects/linkGithub.svg'
+										src='./projects/linkGithub.svg'
 										alt='linkGithub'
 									/>
 									<a className='projects__card-link' href=''>
