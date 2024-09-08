@@ -15,7 +15,7 @@ export const Info = () => {
 				</span>
 			</div>
 			<div className='info__img'>
-				<img className='info__img-photo' src='../public/info.svg' alt='info' />
+				<img className='info__img-photo' src='./public/info.svg' alt='info' />
 			</div>
 		</div>
 	);

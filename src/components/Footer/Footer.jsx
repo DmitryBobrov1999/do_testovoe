@@ -4,23 +4,23 @@ export const Footer = () => {
 	return (
 		<footer className='footer'>
 			<div className='footer__info'>
-				<img src='../public/footer/footerLogo.svg' alt='footerLogo' />
+				<img src='./public/footer/footerLogo.svg' alt='footerLogo' />
 				<p className='footer__phone'>+91 12345 09876</p>
 				<p className='footer__email'>info@example.com</p>
 				<nav className='footer__nav-icons'>
 					<img
 						className='footer__nav-icons-svg'
-						src='../public/footer/githubFilled.svg'
+						src='./public/footer/githubFilled.svg'
 						alt='githubFilled'
 					/>
 					<img
 						className='footer__nav-icons-svg'
-						src='../public/footer/twitterFilled.svg'
+						src='./public/footer/twitterFilled.svg'
 						alt='twitterFilled'
 					/>
 					<img
 						className='footer__nav-icons-svg'
-						src='../public/footer/linkedinFilled.svg'
+						src='./public/footer/linkedinFilled.svg'
 						alt='linkedinFilled'
 					/>
 				</nav>
