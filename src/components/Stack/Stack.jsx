@@ -1,5 +1,5 @@
 import './Stack.css';
-import { StackIconsArray } from './stackIcons';
+import { StackIconsArray } from './StackIcons';
 
 export const Stack = () => {
 	return (
@@ -11,7 +11,11 @@ export const Stack = () => {
 			<div className='stack__icons'>
 				{StackIconsArray.map(stackIcon => (
 					<div className='stack__icons-svg' key={stackIcon.id}>
-						<img className='stack__icons-svg-img' src={stackIcon.link} alt={stackIcon.name} />
+						<img
+							className='stack__icons-svg-img'
+							src={stackIcon.link}
+							alt={stackIcon.name}
+						/>
 					</div>
 				))}
 			</div>
