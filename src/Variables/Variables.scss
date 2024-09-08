@@ -1,0 +1,30 @@
+@mixin titleStyle() {
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: center;
+	color: #42446e;
+}
+
+@mixin textStyle() {
+	font-family: Poppins;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	color: #666666;
+}
+
+//footer
+
+@mixin phoneEmailStyle() {
+	font-family: DM Sans;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #42446e;
+}

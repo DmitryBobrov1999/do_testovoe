@@ -1,0 +1,147 @@
+.projects__title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #42446e;
+}
+.projects__text {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #666666;
+}
+.projects__cards {
+  margin-top: 99px;
+  margin-bottom: 203px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 62px;
+}
+.projects__card {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.projects__card-info {
+  width: 314px;
+  box-sizing: border-box;
+}
+.projects__card-title {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  padding-top: 27px;
+}
+.projects__card-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: #666666;
+  margin: 0;
+  padding-top: 17px;
+}
+.projects__card-techStack {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #42446e;
+  margin: 0;
+  padding-top: 12px;
+}
+.projects__card-techStack span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+}
+.projects__card-block {
+  display: flex;
+  gap: 48px;
+  padding-top: 21px;
+  padding-bottom: 25px;
+}
+.projects__card-linkBlock {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 11px;
+       column-gap: 11px;
+}
+.projects__card-link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+}
+
+@media screen and (max-width: 1209px) {
+  .projects__card {
+    width: 300px;
+  }
+  .projects__card-img {
+    width: 100%;
+  }
+  .projects__card-title {
+    font-size: 20px;
+  }
+  .projects__card-text {
+    font-size: 14px;
+  }
+  .projects__card-techStack {
+    font-size: 14px;
+  }
+  .projects__card-block {
+    gap: 30px;
+  }
+  .projects__card-linkBlock {
+    gap: 10px;
+  }
+  .projects__card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .projects__cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .projects__title {
+    font-size: 24px;
+  }
+  .projects__text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .projects__cards {
+    margin-top: 20px;
+  }
+  .projects__title {
+    margin: 0;
+    line-height: 16px;
+  }
+}/*# sourceMappingURL=Projects.css.map */

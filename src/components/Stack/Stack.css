@@ -1,0 +1,70 @@
+.stack {
+  margin-top: 348px;
+  margin-bottom: 214px;
+}
+.stack__title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #42446e;
+}
+.stack__text {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #666666;
+}
+.stack__icons {
+  margin-top: 147px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 67px;
+  -moz-column-gap: 103px;
+       column-gap: 103px;
+}
+
+@media screen and (max-width: 1209px) {
+  .stack {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .stack__icons {
+    margin-top: 100px;
+    row-gap: 35px;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .stack__icons-svg {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .stack__icons-svg-img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .stack {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .stack__title {
+    font-size: 24px;
+    line-height: 16px;
+    margin: 0;
+  }
+  .stack__text {
+    font-size: 16px;
+    text-wrap: break-word;
+  }
+  .stack__icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=Stack.css.map */

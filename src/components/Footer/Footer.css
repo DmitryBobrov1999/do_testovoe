@@ -1,0 +1,117 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__info {
+  display: flex;
+  margin-bottom: 42px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__phone {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #42446e;
+  margin-left: 516px;
+}
+.footer__email {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #42446e;
+  margin-left: 63px;
+}
+.footer__nav-icons {
+  margin-left: 51px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__nav-icons-svg {
+  width: 30px;
+  height: 30px;
+}
+.footer__hr {
+  border: 1px solid #666666;
+  width: 100%;
+  opacity: 30%;
+}
+.footer__navCopy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53.32px;
+  margin-bottom: 58.8px;
+}
+.footer__nav {
+  margin-top: 6px;
+  width: 554px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__nav-a {
+  text-decoration: none;
+  color: #666666;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #42446e;
+}
+.footer__copyright {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  background: linear-gradient(90deg, #13b0f5 3%, #e70faa 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.footer__copyright span {
+  -webkit-text-fill-color: #666666;
+}
+
+@media screen and (max-width: 1209px) {
+  .footer__info {
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: space-around;
+  }
+  .footer__navCopy {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .footer__phone {
+    margin-left: 0;
+  }
+  .footer__email {
+    margin-left: 0;
+  }
+  .footer__nav-icons {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__nav {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__copyright {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

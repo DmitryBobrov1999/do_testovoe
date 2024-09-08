@@ -1,0 +1,161 @@
+@import '../../Variables/Variables.scss';
+
+.projects {
+	&__title {
+		@include titleStyle();
+	}
+	&__text {
+		@include textStyle();
+	}
+
+	&__cards {
+		margin-top: 99px;
+		margin-bottom: 203px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 62px;
+	}
+	&__card {
+		width: 375px;
+		// height: 567px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-shadow: 2px 2px 100px 0px #00000033;
+		border-radius: 20px;
+
+		&-info {
+			width: 314px;
+			box-sizing: border-box;
+		}
+		&-title {
+			font-family: Poppins;
+			font-size: 28px;
+			font-weight: 500;
+			line-height: 26px;
+			text-align: left;
+			color: #000000;
+			margin: 0;
+			padding-top: 27px;
+		}
+
+		&-text {
+			font-family: Poppins;
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 26px;
+			text-align: left;
+			color: #666666;
+			margin: 0;
+			padding-top: 17px;
+		}
+
+		&-techStack {
+			font-family: Poppins;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 26px;
+			text-align: left;
+			color: #42446e;
+			margin: 0;
+			padding-top: 12px;
+
+			span {
+				font-family: Poppins;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 26px;
+				text-align: left;
+			}
+		}
+
+		&-block {
+			display: flex;
+			gap: 48px;
+			padding-top: 21px;
+			padding-bottom: 25px;
+		}
+
+		&-linkBlock {
+			display: flex;
+			align-items: center;
+			column-gap: 11px;
+		}
+
+		&-link {
+			font-family: Poppins;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 26px;
+			text-align: left;
+			color: #000000;
+		}
+	}
+}
+
+@media screen and (max-width: 1209px) {
+	.projects {
+		&__card {
+			width: 300px;
+			&-img {
+				width: 100%;
+			}
+			&-title {
+				font-size: 20px;
+			}
+
+			&-text {
+				font-size: 14px;
+			}
+
+			&-techStack {
+				font-size: 14px;
+			}
+
+			&-block {
+				gap: 30px;
+			}
+
+			&-linkBlock {
+				gap: 10px;
+			}
+
+			&-info {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				padding-left: 14px;
+				padding-right: 14px;
+			}
+		}
+		&__cards {
+			margin-top: 100px;
+			margin-bottom: 100px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__title {
+			font-size: 24px;
+		}
+
+		&__text {
+			font-size: 16px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.projects {
+		&__cards {
+			margin-top: 20px;
+		}
+
+		&__title {
+			margin: 0;
+			line-height: 16px;
+		}
+	}
+}
